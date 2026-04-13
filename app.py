@@ -150,7 +150,7 @@ else:
 
 # Main Display Logic
 if st.session_state.nodes is None:
-    st.title("Welcome to the Doc Explorer!")
+    st.title("Welcome to the MFWAV Upskill Tool!")
     st.write("⬅️ Please upload a Microsoft Word (`.docx`), Markdown (`.md`), or Text (`.txt`) file in the sidebar.")
     st.write(
         "*(**Note on Word Docs:** Ensure your document uses standard Word Heading styles like 'Heading 1', 'Heading 2', etc., for the tree to build correctly!)*")
